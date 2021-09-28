@@ -27,7 +27,7 @@ class Window:
         window = QWidget()  # 窗口
         window.resize(window_config['width'], window_config['height'])  # 窗口大小
         window.setWindowTitle('测试')  # 窗口左上角标题
-        window.move(window_config['horizontal_shift'], window_config['vertical_shift'])  # 窗口偏移量
+        window.move(window_config['hshift'], window_config['vshift'])  # 窗口偏移量
         return window
 
     def _get_label_obj(self):

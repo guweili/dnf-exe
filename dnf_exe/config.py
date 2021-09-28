@@ -7,8 +7,8 @@
 window_config = {
     'width': 800,
     'height': 800,
-    'horizontal_shift': 400,
-    'vertical_shift': 200,
+    'hshift': 400,
+    'vshift': 200,
 }
 
 btn1 = {
